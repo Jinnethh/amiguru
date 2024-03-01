@@ -19,7 +19,10 @@
     url("https://db.onlinewebfonts.com/t/38a8e38d23135318aca19fd5cff8e67f.svg#Amplitude-Regular")format("svg");
 }
 
-
+.header-section {
+display: flex;
+justify-content: center;
+}
 
 
 body{
@@ -123,7 +126,7 @@ width: 100%;
     background-image: url(./image-removebg-preview.png);
     background-repeat: no-repeat;
     background-size: 490px auto;
-    margin-left: 33%;
+/*     margin-left: 33%; */
     width: 70ch;
 }
 
