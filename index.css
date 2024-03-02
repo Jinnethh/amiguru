@@ -216,7 +216,7 @@ li.list-group-item.text-right.mx-2{
     padding: 1px 6px;
     border-radius: 50%;
   }
-  @media screen and (max-width: 768px) {
+ @media screen and (max-width: 768px) {
     .logo {
         padding: 10px;
     }
@@ -239,5 +239,47 @@ li.list-group-item.text-right.mx-2{
 
     #contador-carrito {
         font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1109px) {
+    #items{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}
+@media screen and (max-width: 839px) {
+    .fto{
+        height: 190px;
+    }
+    .logo{
+
+      
+        margin-left: 30%;
+        
+
+    }
+}
+@media screen and (max-width: 759px) {
+    .fto{
+        height: 186px;
+    }
+   #items{
+    margin-top: 40px;
+   }
+}
+@media screen and (max-width: 685px) {
+    .fto{
+        height: 186px;
+    }
+    .logo{
+        background-size: 360px;
+;
+    }
+}
+@media screen and (max-width: 906px) {
+    .logo{
+        margin-left: 90px;
     }
 }
