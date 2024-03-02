@@ -168,11 +168,9 @@ function renderizarCarrito() {
     DOMtotal.textContent = calcularTotal();
 }
 
-function borrarItemCarrito(evento) {
+function borrarItemCarrito(evento, posicion) {
     const id = evento.target.dataset.item;
-    carrito = carrito.filter((carritoId) => {
-        return carritoId !== id;
-    });
+    carrito.splice(posicion, 1);
     actualizarContadorCarrito();
     renderizarCarrito();
 }
